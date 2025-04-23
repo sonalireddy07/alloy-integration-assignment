@@ -24,7 +24,7 @@ After looking through Alloy’s API documentation more carefully, I learned that
 This experience gave me a deeper understanding of Alloy’s evaluation model and emphasized the importance of aligning precisely with an API’s data schema. To prevent similar issues, I added a loop in the script to ensure that required fields like the first name are provided before submitting the request.
 
 ## Improvements
-  1. Add handling for unexpected responses, such as a 201 Created status with no outcome in the response body.
+  1. Add handling for unexpected responses, such as a 201 status with no outcome in the response body.
 
   2. Expand validation coverage for user input — ensuring all non-null and critical fields meet format expectations before submission.
 
