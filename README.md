@@ -10,7 +10,7 @@ This project is a take-home assignment for Alloy’s Solutions Architect role. T
 
   3. Processing the API response and presenting an appropriate message
 
-  For collecting input, I considered two approaches: hardcoding versus accepting user input via the console. While hardcoding would’ve been faster, I opted for console input to make the script more dynamic and usable. This choice meant adding validation logic to guide the user and ensure required fields were properly formatted.
+  For collecting input, I considered two approaches: hardcoding versus accepting user input via the console. While hardcoding would’ve been faster, I opted for console input to make the script more dynamic and interactive. This choice meant adding validation logic to guide the user and ensure required fields were properly formatted.
 
   A key question I kept in mind while designing the input flow was: How should this behave for both the user and the system? For instance, the Date of Birth must follow the ISO-8601 format (YYYY-MM-DD). If the user enters an invalid format, the script should prompt them to try again until it’s valid. This ensures clean data before sending it to Alloy.
 
